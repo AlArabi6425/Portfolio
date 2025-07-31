@@ -6,23 +6,29 @@ body {
 }
 
 h1 {
-  color: #66BFBF;
+  color: #91786E;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
 h2 {
-  color: #66BFBF;
+  color: #91786E;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
-  padding-bottom: 10px;
 }
 
 h3 {
-  color: #11999E;
+  color: #91786E;
   font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5rem;
 }
 
 p {
@@ -36,8 +42,8 @@ hr {
   margin: 100px auto;
 }
 
-a{
-  color: #11999E;
+a {
+  color: #91786E;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
@@ -47,8 +53,41 @@ a:hover {
   color: #EAF6F6;
 }
 
+.lastp {
+  width: 30%;
+  font-size: 1.3rem;
+  margin: auto;
+}
+
+.photo {
+  max-width: 25%;
+}
+
+.kutta {
+  position: relative;
+  text-align: right;
+  top: 15px;
+  font-size: 2.5vw;
+}
+
+.masla {
+  position: relative;
+  top: -60px;
+  text-align: right;
+}
+@media screen and (max-width: 600px) {
+  .masla {
+    font-size: 1.2vw;
+  }
+}
+@media screen and (min-width: 601px) {
+  .masla {
+    font-size: 2.0vw;
+  }
+}
+
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #94B49F;
   position: relative;
   padding-top: 100px;
 }
@@ -56,11 +95,11 @@ a:hover {
 .middle-container {
   margin: 0px 0;
   color: #C2DED1;
-  background-color: #383838;
+  background-color: #2C3333;
 }
 
 .bottom-container {
-  background-color: #3A3845;
+  background-color: #2C3639;
   padding: 50px 0 20px;
 }
 
@@ -70,9 +109,9 @@ a:hover {
   text-align: left;
 }
 
-
 .intro {
   width: 30%;
+  font-size: 1.3rem;
   margin: auto;
 }
 
@@ -104,8 +143,7 @@ a:hover {
   float: left;
   margin-right: 30px;
 }
-
-
+}
 
 .btn {
   background: #11cdd4;
@@ -133,10 +171,29 @@ a:hover {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
 .logo {
-  position: relative;
-  margin-left: 250px;
-  padding-top: 0
+  padding: 1px 2px 1px 280px;
+}
 
+.nothing {
+  font-size: 1.7rem;;
+  padding: 1px 1px 1px 1px;
+}
 
+.chosen {
+  padding: 5px 5px 5px 5px;
+  align: center;
+}
+@media screen and (max-width: 600px) {
+  .chosen {
+    font-size: 2.3vw;
+  }
+}
+@media screen and (min-width: 601px) {
+  .chosen {
+    font-size: 1.9vw;
+    padding: 5px 150px 5px 150px;
+
+  }
 }
